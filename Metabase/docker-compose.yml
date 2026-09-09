@@ -2,7 +2,7 @@ name: metabase-cve-2026-72900-lab
 
 services:
   metabase:
-    image: metabase/metabase-enterprise:v1.60.16
+    image: metabase/metabase:v0.60.16
     ports:
       - "127.0.0.1:3000:3000"
     environment:
